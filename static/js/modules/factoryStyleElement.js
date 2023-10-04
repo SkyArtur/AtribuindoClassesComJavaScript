@@ -1,3 +1,7 @@
+import {promiseGetElement} from "./promiseGetElement.js"
+import {setStyleElement} from "./setStyleElement.js"
+
 export function factoryElement(element, style, byID = false){
-    return {element, style, byID}
+    promiseGetElement({element, style, byID})
+        .then(setStyleElement)
 }
