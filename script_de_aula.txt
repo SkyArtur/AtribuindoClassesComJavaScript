@@ -1,0 +1,30 @@
+Aulinha de hoje foi produtiva, mas de assustar.
+Começamos com uma simples estrutura de arquivos.
+
+imagem estrutura de arquivos
+
+
+Depois criamos uma página HTML para executar os testes, onde chamamos o nosso arquivo main.js como um módulo.
+
+imagem HTML
+
+Partimos então para a promise que vai coletar os elementos de document por ID ou ClassName
+
+imagem da promise
+
+Criamos também a função que irá de fato passar as configurações de estilo para os elementos html.
+Destaque para o operador spred-rest [...n] para transformar o objeto HtmlCollection em um Array.
+
+imagem de setStyle
+
+Também criamos uma pequena factory para criar o objeto com as chaves que precisamos para a manipulação
+dos elementos html, detalhe para o fato de ela settar o atributo byID com o valor padrão false, deste modo, se desejamos
+realizar uma captura por ClassName, basta, não alterarmos o argumento byID.
+
+imagem da factory
+
+Por último, realizamos os devidos imports e realizamos a execução e teste, que, por sorte, foram um sucesso. kkkk
+
+O projeto da aula está disponível em:
+
+https://github.com/SkyArtur/AtribuindoClassesComJavaScript

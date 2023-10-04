@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/F1ManagerApp.iml" filepath="$PROJECT_DIR$/.idea/F1ManagerApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../AtribuirBootstrapComJavascript/.idea/AtribuirBootstrapComJavascript.iml" filepath="$PROJECT_DIR$/../AtribuirBootstrapComJavascript/.idea/AtribuirBootstrapComJavascript.iml" />
     </modules>
   </component>
 </project>
